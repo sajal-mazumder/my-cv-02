@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    width: 80%;
+    margin: 0 auto;
+    /* display: grid;
+    grid-template-columns: 1.5fr 3.5fr; */
+}
+
+.image>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 999;
+    margin-top: -70px;
+    margin-left: 50px;
+    /* position: relative; */
+}
+
+.header{
+    background-color: rgba(57, 87, 77, 0.644);
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    padding-top: 20px;
+    /* position: absolute; */
+}
+
+.headerh2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.headerh4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.maincontent{
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    background-color: rgb(248, 247, 247);
+    /* margin-top: -50px; */
+    z-index: -1;
+}
+
+.leftbar{
+    background-color:darkgray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 50px; */
+}
+
+.leftbar_div1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.left_h3{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.leftbar_div1>ul>li{
+    padding: 5px;
+}
+
+.symbol_ul>li{
+    list-style: none;
+}
+
+.symbol_li>i{
+    margin-right: 10px;
+}
+
+.skills_li>li{
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lang_ul>li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reffer_ul>li{
+    list-style: none;
+    margin-top: -10px ;
+}
+
+.reffer_ul>li>h3{
+    margin-top: 10px;
+}
+
+.reffer_ul>li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* rightbar start */
+
+.rightbar{
+    margin-left: 30px;
+}
+
+.right_div>h3{
+    padding: 10px 0;
+}
+
+.right_div>p{
+    padding: 10px 0;
+}
+
+.right_li{
+    list-style: none;
+}
+
+.right_li>h3{
+    padding: 10px 0;
+}
+
+.right_li>h4, h5, li{
+    padding: 5px 0;
+}
+
+span{
+    float: right;
+    padding-right: 30px;
+}
+
+span>img{
+    width: 200px;
+}
+
+.fa-solid{
+    padding-right: 10px;
+    /* background-color: black;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    font-size: 10px; */
+}
+
+hr{
+    border: 1px solid black;
+    width: 80%;
+}
